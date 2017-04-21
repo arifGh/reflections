@@ -22,8 +22,9 @@
 	git log --graph --oneline  branch_name1 branch_name2
 	各分支 commit 易于阅读
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+# What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+# 将两个分支合并到一起有何结果？为什么我们在图表中表示它的方式是那样的？
+	将两个分支合并到一起，会把这两个分支合并到checkout的分支，git log 显示两个分支的所有 commit，但显示方式是按提交时间排序
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
