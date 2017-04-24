@@ -15,9 +15,10 @@
 	克隆 - 把某个代码库克隆到自己的电脑上，也可以fork后克隆然后坐出更改
 	分支 - 向做出一个实验性功能，可以创建一个分支以实验、测试，等实验成熟后加入到master分支或其他分支
 
-What is the benefit of having a copy of the last known state of the remote stored locally?
+# What is the benefit of having a copy of the last known state of the remote stored locally?
+# 拥有远程分支的上次已知状态的副本（存储在本地）有何好处？
 
-    Fill in your answer here
+    可以知道远程分支修改了或更新了哪些地方
 
 How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
