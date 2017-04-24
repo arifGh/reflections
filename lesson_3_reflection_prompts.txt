@@ -8,9 +8,12 @@
 
     手动地拉去更改，更自在，不会把本地的文件混乱
 
-Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+# Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+# 说明Fork、克隆和分支之间的不同。何时使用某种功能而不是另一种？
 
-    Fill in your answer here
+    Fork - 想向某个代码库做出建议更改，可以用fork到自己的github上
+	克隆 - 把某个代码库克隆到自己的电脑上，也可以fork后克隆然后坐出更改
+	分支 - 向做出一个实验性功能，可以创建一个分支以实验、测试，等实验成熟后加入到master分支或其他分支
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
