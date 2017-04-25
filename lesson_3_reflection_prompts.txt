@@ -20,9 +20,12 @@
 
     可以知道远程分支修改了或更新了哪些地方
 
-How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+# How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+# 如何在不使用 Git 或 GitHub 的情况下开展协同？哪种做法更容易？哪种做法更困难？
 
-    Fill in your answer here
+    可以使用u盘或移动盘之类的硬件来交换项目，或用网盘或用带传文件功能的聊天工具来开展协同；
+    如果同一个办公室移动盘会比较容易，如果处在两个地点用网盘或聊天工具比较容易；
+    学到这课程后发现不管那种环境Git最方便。
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
