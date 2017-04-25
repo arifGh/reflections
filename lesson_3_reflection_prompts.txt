@@ -12,8 +12,8 @@
 # 说明Fork、克隆和分支之间的不同。何时使用某种功能而不是另一种？
 
     Fork - 想向某个代码库做出建议更改，可以用fork到自己的github上
-	克隆 - 把某个代码库克隆到自己的电脑上，也可以fork后克隆然后坐出更改
-	分支 - 向做出一个实验性功能，可以创建一个分支以实验、测试，等实验成熟后加入到master分支或其他分支
+  	克隆 - 把某个代码库克隆到自己的电脑上，也可以fork后克隆然后坐出更改
+  	分支 - 向做出一个实验性功能，可以创建一个分支以实验、测试，等实验成熟后加入到master分支或其他分支
 
 # What is the benefit of having a copy of the last known state of the remote stored locally?
 # 拥有远程分支的上次已知状态的副本（存储在本地）有何好处？
@@ -27,6 +27,9 @@
     如果同一个办公室移动盘会比较容易，如果处在两个地点用网盘或聊天工具比较容易；
     学到这课程后发现不管那种环境Git最方便。
 
-When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+# When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+# 何时你会想在独立的分支中而不是直接在 master 中进行更改？两种方法各有何好处？
 
-    Fill in your answer here
+    如果某个项目开展协同然而某个人添加一些新的功能之类的需要，创建一个新的独立的分支，等其他人也认同该功能时再合并。
+    master 上 git 的 push，pull 操作更加直接简单，但要为了保持稳定，健全需要另个分支；
+    新的独立分支为了新功能，实验功能。
